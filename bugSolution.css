@@ -1,0 +1,12 @@
+The issue lies in the missing spaces around the minus operator in the `calc()` function.  To resolve the issue, add spaces around the operator.
+
+**Incorrect:**
+```css
+div{width:calc(100%-10px);}
+```
+
+**Correct:**
+```css
+div{width:calc(100% - 10px);}
+```
+By adding spaces, you ensure the `calc()` function correctly interprets and performs the calculation.
